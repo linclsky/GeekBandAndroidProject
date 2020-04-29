@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#123456">
+
+
+
+    <include layout="@layout/activity_splash"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/list_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ListView"/>
+
+    <Button
+        android:id="@+id/grid_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_view_button"
+        android:text="GridView" />
+
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/grid_view_button"
+        android:text="TextView" />
+        <LinearLayout
+            android:id="@+id/canter_linear"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+           android:layout_toRightOf="@id/text_view2"
+            android:layout_below="@+id/grid_view_button"
+            android:background="@color/red">
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/canter_linear"
+            android:layout_below="@+id/grid_view_button"
+            android:text="Button8" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+
+
+    <Button
+        android:id="@+id/test_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view2"
+        android:text="testbuttonview" />
+
+    <Button
+        android:id="@+id/fragment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/test_view_button"
+        android:text="fragment_button" />
+
+    <Button
+        android:id="@+id/handlern_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_button"
+        android:text="handlern_button" />
+
+
+    <Button
+        android:id="@+id/musice_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/handlern_button"
+        android:text="musice_button" />
+    <Button
+        android:id="@+id/broadcast_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/musice_button"
+        android:text="broadcast_button" />
+    <Button
+        android:id="@+id/web_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/broadcast_button"
+        android:text="web_view_button" />
+    <Button
+        android:id="@+id/database_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/web_view_button"
+        android:text="database_button" />
+    <Button
+        android:id="@+id/net_work_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/database_button"
+        android:text="net_work_button" />
+
+    <Button
+        android:id="@+id/thread_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/net_work_button"
+        android:text="thread_button" />
+    <Button
+        android:id="@+id/button_aidl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thread_button"
+        android:text="button_aidl" />
+        <Button
+            android:id="@+id/sensor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_aidl"
+            android:text=" sensor_button" />
+        <Button
+            android:id="@+id/map_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sensor_button"
+            android:text="map_button" />
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

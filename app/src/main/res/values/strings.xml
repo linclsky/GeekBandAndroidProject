@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">极客班</string>
+    <string name="splash_text">极客班的title</string>
+    <string name="click_to_enter">点击进入</string>
+    <string name="hello_world_text">Hello World</string>
+    <string name="data_counts">条数：</string>
+    <string name="handler_text_view">Handler教学</string>
+    <string name="Download">下载</string>
+</resources>

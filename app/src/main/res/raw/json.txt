@@ -1,0 +1,33 @@
+{
+    "user": {
+      "id": 1000001,
+      "name": "年少醉娇娆",
+      "avatar": "http://tp3.sinaimg.cn/5620612798/180/5733537191/0"
+    },
+    "title": "请大家帮我掌掌眼~",
+    "content": "翻箱倒柜，找到40多枚民国铜币，请鉴赏下。",
+    "images": [
+      "http://ww2.sinaimg.cn/bmiddle/8675fb02gw1exy6fh4lulj20p018gq7m.jpg",
+      "http://ww3.sinaimg.cn/bmiddle/8675fb02gw1exy6fhrl3vj20p018g78l.jpg",
+      "http://ww2.sinaimg.cn/bmiddle/8675fb02gw1exy6findz0j20p018gn1t.jpg"
+    ],
+    "block": "古玩鉴赏",
+    "discussNumber": "101",
+    "datetime": "2015-12-10 09:40:02",
+    "user_list":[
+     "user": {
+          "id": 1000001,
+          "name": "年少醉娇娆",
+          "avatar": "http://tp3.sinaimg.cn/5620612798/180/5733537191/0"
+        },
+         "user": {
+              "id": 1000001,
+              "name": "年少醉娇娆",
+              "avatar": "http://tp3.sinaimg.cn/5620612798/180/5733537191/0"
+            }, "user": {
+                    "id": 1000001,
+                    "name": "年少醉娇娆",
+                    "avatar": "http://tp3.sinaimg.cn/5620612798/180/5733537191/0"
+                  }
+    ]
+  }
